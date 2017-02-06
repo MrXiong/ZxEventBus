@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context="com.zx.eventbus.MainActivity">
+
+    <Button
+        android:id="@+id/btn_broad_send"
+        android:onClick="gotoBroadSend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="广播发送" />
+    <Button
+        android:id="@+id/btn_broad_get"
+        android:onClick="gotoBroadGet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="广播接收" />
+    <Button
+        android:id="@+id/btn_event_send"
+        android:onClick="gotoEventSend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="事件发送" />
+    <Button
+        android:id="@+id/btn_event_get"
+        android:onClick="gotoEventGet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="事件接收" />
+
+    <TextView
+        android:id="@+id/tv_test"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tv_testa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tv_testas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</LinearLayout>
